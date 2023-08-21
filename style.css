@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.blue{
+    
+    height: 20px;
+}
+.main{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.navtext{
+    text-decoration: none;
+    color: black;
+}
+.black{
+    height: 40px;
+}
+.main2{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    
+}
+.login{
+    color: black;
+}
+.sell{
+    border-radius: 8px;
+    background-color: transparent;
+}
+nav{
+    padding: 20px 40px;
+}
+.para{
+    font-size: 20px;
+}
