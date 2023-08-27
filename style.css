@@ -1,7 +1,17 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+header{
+    overflow: hidden;
+    background-color: white;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+ 
+  
 }
 .blue{
     
@@ -10,7 +20,7 @@ body{
 .main{
     display: flex;
     width: 30%;
-    justify-content: space-between;
+    gap: 20px;
     align-items: center;
     
     
@@ -24,7 +34,7 @@ body{
 }
 .main2{
     display: flex; 
-    justify-content: space-between;
+    gap: 25px;
     align-items: center;
     height: 100px;
 
@@ -32,14 +42,169 @@ body{
 }
 .login{
     color: black;
+    font-size: 25px;
+    
+    
 }
 .sell{
-    border-radius: 8px;
-    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    border:2px solid dodgerblue;
+    border-color:;
+border-end-end-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px; border-radius: px;
+    
 }
+
 nav{
     padding: 20px 40px;
+    
 }
 .para{
     font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
+.olximg{
+    width: 100%;
+}
+.bold{
+    font-size: 40px;
+    font-weight: 100;
+}
+.pak{
+    border: 2px solid black;
+    height: 40px;
+    width: 250px;
+}
+
+.car{
+    border: 2px solid black;
+    height: 45px;
+}
+.sub{
+    justify-content: center;
+    align-items: center;
+}
+.searchImg{
+    height: 40px;
+    border-end-end-radius: 5px;
+    border-start-end-radius: 5px;
+}
+
+.main3{
+    display: flex;    
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.categText{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.categBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.sec{
+    margin-top: 170px;
+
+}
+.main4{
+    display: flex;
+    gap: 10px;
+}
+
+.searchib{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchItems{
+height: 40px;
+width: 100vh;
+border: 2px solid black;
+border-top-left-radius: 5px;
+border-end-start-radius: 5px;
+
+}
+.searchBtn{
+    height: 40px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 40px;
+    border-radius: 5px;
+}
+.cardbox{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card{
+    border-radius: 5px;
+    max-width: 24%;
+    height: 310px;
+    border:  1px solid #ccd5d6;
+}
+.cardimg{
+    width: 100%;
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+}
+.itemflex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.cardrs{
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+.flexFotter{
+    display: flex;
+    gap: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #ebeeef;
+    border-top: 2px solid #ccd5d6;
+}
+.endFoot{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footTxt{
+    padding-right: 40px;
+    color: aliceblue;
+}
+.iconFlex{
+    display: flex;
+    gap: 20px;
+}
+.footImg{
+    height: 30px;
+}
+
